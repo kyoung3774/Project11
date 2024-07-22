@@ -1,19 +1,18 @@
 package object.quiz;
 
-
 public class Quiz02 {
 
 	public static void main(String[] args) {
 
 		Object object1 = new Student(1001, "둘리");
 		Object object2 = new Student(1002, "또치");
-		
+
 		Student student1 = (Student) object1;
 		System.out.println(student1.id);
 		System.out.println(student1.name);
 		System.out.println();
-		
-		if(object2 instanceof Student) {
+
+		if (object2 instanceof Student) {
 			Student student2 = (Student) object2;
 			System.out.println(student2.id);
 			System.out.println(student2.name);

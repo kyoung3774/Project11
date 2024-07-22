@@ -8,21 +8,20 @@ public class Quiz01 {
 
 		MyDate date1 = new MyDate(2024, 7, 22);
 		MyDate date2 = new MyDate(2024, 7, 22);
-		
-		if(date1.equals(date2)) {
+
+		if (date1.equals(date2)) {
 			System.out.println("date1과 date2는 같은 날짜입니다.");
-		}else {
-			System.out.println("date1과 date2는 갈튼 날짜가 아닙니다.");
+		} else {
+			System.out.println("date1과 date2는 갈은 날짜가 아닙니다.");
 		}
-		
+
 		MyDate date3 = new MyDate(2024, 7, 21);
 		MyDate date4 = new MyDate(2024, 7, 22);
-		
-		
-		if(date3.equals(date4)) {
+
+		if (date3.equals(date4)) {
 			System.out.println("date3과 date4는 같은 날짜입니다.");
-		}else {
-			System.out.println("date3과 date4는 갈튼 날짜가 아닙니다.");
+		} else {
+			System.out.println("date3과 date4는 갈은 날짜가 아닙니다.");
 		}
 
 	}

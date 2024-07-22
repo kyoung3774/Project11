@@ -6,20 +6,19 @@ public class Ex03 {
 
 		Student student1 = new Student(1001, "둘리");
 		Student student2 = new Student(1001, "둘리");
-		B b = new B(1001, "또치");
+		B b = new B(1001, "둘리");
 
 		System.out.println(student1.equals(b));
-		System.out.println(student1.equals(student1));
 		System.out.println(student1.equals(student2));
 
-		// 비교 연산자 비교
+		// 비교 연산자 비교 (주소값 비교)
 		if (student1 == student2) {
 			System.out.println("student1과 student2의 주소는 같습니다.");
 		} else {
 			System.out.println("student1과 student2의 주소는 다릅니다.");
 		}
 
-		// equals 비교
+		// equals 비교 (리터럴 값 비교)
 		if (student1.equals(student2)) {
 			System.out.println("student1과 student2의 주소는 같습니다.");
 		} else {
@@ -41,7 +40,7 @@ class Student extends Object {
 		this.name = name;
 	}
 
-	// 주석 처리 전후 비교하시오
+	// 리터럴 값 비교를 위한 재정의
 	@Override
 	public boolean equals(Object obj) {
 		if (obj instanceof Student) { // 자식 클래스가 맞는지 확인
