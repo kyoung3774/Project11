@@ -31,14 +31,17 @@ public class Quiz05 {
 			}
 		}
 		System.out.println("----2----");
-
+		
+		// 
 		for (int j = str.length() - 1; j >= 0; j--) {
 			System.out.print(str.charAt(j));
-			if (str.charAt(j) == str.charAt(0)) {
-				
-			}
 		}
-
+		System.out.println("----3----");
+		
+		// StringBuilder
+		StringBuilder builder = new StringBuilder(str);
+		builder.reverse();
+		System.out.println(builder.toString());
 	}
 
 }

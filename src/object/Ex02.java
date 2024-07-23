@@ -10,6 +10,6 @@ public class Ex02 {
 
 }
 
-class A { // 모든 클래스는 object 클래스를 상속 받는다.(extends object)
+class A { // 모든 클래스는 object 클래스를 상속 받는다.(extends object) 생략
 
 }
