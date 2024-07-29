@@ -13,6 +13,7 @@ public class Ex01 {
 		
 		System.out.println(str1 == str2); // 주소값이 같음
 		System.out.println(str1 == str3); // 주소값이 다름
+		System.out.println();
 		System.out.println(str1.equals(str2));
 		System.out.println(str1.equals(str3));
 	}
